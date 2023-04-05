@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="navbar.css" />
+    <title>NavBar Section</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__meta">
+        <form class="header__meta--form">
+          <fieldset>
+            <label for="language">Language</label>
+            <select name="language" id="language">
+              <option value="eng">English</option>
+              <option value="chi">Chinese</option>
+              <option value="jap">Japanese</option>
+              <option value="kor">Korean</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <label for="currency">Currency</label>
+            <select name="currency" id="currency">
+              <option value="usd">USD</option>
+              <option value="jyp">JYP</option>
+              <option value="eur">Euro</option>
+              <option value="aud">AUD</option>
+            </select>
+          </fieldset>
+        </form>
+        <ul class="header__meta--links">
+          <li><a href="">About Us</a></li>
+          <li><a href="">Order Tracking</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">FAGs</a></li>
+        </ul>
+      </div>
+
+      <div class="header__categories">
+        <div>
+          <a href="#" class="header__categories--logo">EL</a>
+          <form class="header__categories--form">
+            <select name="categories" id="cat">
+              <option value="all cat">All Categories</option>
+              <option value="womens">Womens</option>
+              <option value="mens">Mens</option>
+              <option value="access">Accessories</option>
+              <option value="kids">Kids</option>
+              <option value="items">More Items</option>
+            </select>
+            <input type="text" placeholder="I'm shopping for..." />
+            <input type="submit" value="Search" />
+          </form>
+        </div>
+
+        <div>
+          <div class="header__categories--fav">
+            <div>
+              <i class="fa-solid fa-heart"></i>
+              <span>3</span>
+            </div>
+            <div>
+              <a href="#">Favorites</a>
+              <a href="#">My Wishlist</a>
+            </div>
+          </div>
+
+          <div class="header__categories--login">
+            <div>
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span>1</span>
+            </div>
+            <div>
+              <a href="#">Login</a>
+              <a href="#">My Account</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav class="header__nav">
+        <ul class="header__nav--links">
+          <li><a href="">Women</a></li>
+          <li><a href="">Men</a></li>
+          <li><a href="">Accessories</a></li>
+          <li><a href="">Kids</a></li>
+          <li><a href="">More Items</a></li>
+        </ul>
+
+        <p class="header__nav--help">
+          <i class="fa-solid fa-square-phone"></i>
+          Need Help? Call 0023 2541 1264 4413
+        </p>
+      </nav>
+    </header>
+  </body>
+</html>
